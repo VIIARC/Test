@@ -1,0 +1,195 @@
+@import "fonts";
+@import "nullstyle";
+
+body {
+   width: 3712px;
+   height: 2000px;
+   box-sizing: border-box;
+   background-color: #fbf9fc;
+
+   header {
+      width: 3712px;
+      height: 555px;
+
+
+      .header {
+
+         .header__box {
+            display: flex;
+            font-family: "Ubuntu", sans-serif;
+            font-family: Ubuntu;
+            font-size: 46px;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #393939;
+
+            .header__item-home {
+               margin: 185px 380px 337px 910px;
+            }
+
+            .header__item-about {
+               margin: 185px 482px 337px 0px;
+            }
+
+            .header__item-contacts {
+               margin: 185px 356px 337px 0px;
+            }
+
+            .header__item-services {
+               margin: 185px 923px 337px 0px;
+            }
+         }
+
+         .header__container {
+            display: flex;
+            justify-content: flex-end;
+
+            .header__box2 {
+               width: 626px;
+               height: 201px;
+               margin: 134px 69px 0 228px;
+               padding: 65px 288px 0px 108px;
+               background-color: #693d8d;
+               transform: translate(34px, -355px);
+
+               .header__item-text {
+                  display: flex;
+                  width: 250px;
+                  height: 71px;
+                  font-family: "Ubuntu", sans-serif;
+                  font-size: 35.5px;
+                  font-weight: bold;
+                  font-stretch: normal;
+                  font-style: normal;
+                  line-height: normal;
+                  letter-spacing: normal;
+                  text-align: left;
+                  color: #fbf9fc;
+               }
+
+               .header__item-romb {
+                  width: 22px;
+                  height: 22px;
+                  background-color: #fbf9fc;
+                  transform: translate(354px, -86px) rotate(48deg);
+                  ;
+               }
+            }
+         }
+      }
+   }
+
+   main {
+      .main__container {
+         width: 3780px;
+         height: 1139px;
+         background-image: url(/img/images/Barber.png);
+         background-repeat: no-repeat;
+         background-size: 3780px 1139px;
+
+         .main__item-text1 {
+            width: 1245px;
+            height: 155px;
+            transform: translate(345px, 750px);
+
+            .main__item-span1 {
+               display: inline-block;
+               font-family: "Roboto", sans-serif;
+               font-size: 45.5px;
+               font-weight: normal;
+               font-stretch: condensed;
+               font-style: normal;
+               line-height: normal;
+               letter-spacing: normal;
+               text-align: left;
+               color: #fbf9fc;
+
+
+               .main__item-span--bold {
+                  display: inline-block;
+                  font-weight: bold;
+               }
+            }
+         }
+
+         .main__item-text2 {
+            width: 755px;
+            height: 101px;
+            transform: translate(2075px, 560px);
+
+            .main__item-span2 {
+               display: inline-block;
+               font-family: "Ubuntu", sans-serif;
+               font-size: 104px;
+               font-weight: bold;
+               font-stretch: normal;
+               font-style: normal;
+               line-height: normal;
+               letter-spacing: normal;
+               text-align: left;
+               color: #fbf9fc
+            }
+         }
+
+         .main__item-text3 {
+            width: 960px;
+            height: 83px;
+            transform: translate(665px, -0px);
+
+            .main__item-span3 {
+               display: inline-block;
+               font-family: "Ubuntu", sans-serif;
+               font-size: 105px;
+               font-weight: bold;
+               font-stretch: normal;
+               font-style: normal;
+               line-height: normal;
+               letter-spacing: normal;
+               text-align: left;
+               color: #fbf9fc;
+            }
+         }
+
+         .main__box {}
+      }
+   }
+
+   .footer {
+      width: 3712px;
+      height: 306px;
+
+      .footer__text {
+         width: 816px;
+         height: 133px;
+         margin-left: 66px;
+         padding: 40px 211px 0px 110px;
+         background-color: #693d8d;
+
+         .footer__item-span {
+            display: inline-block;
+            width: 595px;
+            transform: translate(-17px, -6px);
+            font-family: "Roboto", sans-serif;
+            font-size: 50.5px;
+            font-weight: normal;
+            font-stretch: condensed;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            color: #fbf9fc;
+         }
+      }
+
+      .footer__item-social-media {
+         display: flex;
+         justify-content: flex-end;
+         margin-right: 255px;
+         gap: 74px;
+      }
+   }
+}
